@@ -1,0 +1,49 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+body{
+    background-color: rgb(35, 34, 34);
+    font-family: "Righteous";
+}
+
+/* .contenedor{
+
+    background-color: aqua;
+    border-radius: 25px;
+} */
+
+.contenedor-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+.contenedor-texto h1, h2, p{
+
+    color: beige;
+}
+
+.contenedor-formulario{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center
+}
+
+.input{
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.enviarBtn{
+    border-radius: 15px;
+    text-decoration: none;
+    
+}
+
+.enviarBtn:hover{
+    background-color: rgb(25, 95, 30);
+    cursor: pointer;
+}
